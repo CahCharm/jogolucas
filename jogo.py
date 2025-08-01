@@ -1,6 +1,3 @@
-# Validador de Idade para Votação
-# Autor: Claudez Naro
-
 # Entrada do nome e da idade (funções built-in)
 nome = input("Digite seu nome: ")
 idade = int(input("Digite sua idade: "))
@@ -15,6 +12,6 @@ elif idade >= 18 and idade <= 70:
 else:
     situacao = "Voto opcional por idade."
 
-# Exibindo o resultado (função built-in print)
+# Exibindo o resultado 
 print(f"\nOlá, {nome}!")
 print(f"Com {idade} anos: {situacao}")
