@@ -12,7 +12,7 @@ while True: #while enquanto a cond que ta na frente for vdd ele faz
     except ValueError:  #captura exceções (except), caso try nn der certo
         print("Por favor, digite um número inteiro.") 
 
-faixas = [
+faixas = [ #array
     (16, "Você ainda não pode votar."), 
     (18, "Voto opcional (facultativo)."),  
     (70, "Voto obrigatório.")
@@ -22,7 +22,7 @@ faixas = [
 situacao = "" 
 
 
-for limite, mensagem in faixas: #outro loop 
+for limite, mensagem in faixas: #outro loop para percorrer o array
     if idade < limite:  # verifica se a idade é menor que o limite
         situacao = mensagem  
         break  # sai do laço 
