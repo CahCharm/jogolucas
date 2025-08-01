@@ -1,4 +1,4 @@
-
+#built-in funções que já vêm prontas para uso dentro de uma linguagem de programação, sem a necessidade de serem definidas pelo usuário 
 nome, idade, situacao.
 
 Funções built-in usadas:
@@ -8,10 +8,6 @@ input(), int(), print().
 Estrutura condicional:
 
 if, elif, else.
-
-Estrutura de repetição:
-
-Não é obrigatória nesse projeto, mas posso adicionar se quiser.
 
 Operadores:
 
